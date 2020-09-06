@@ -1,0 +1,76 @@
+html,
+body {
+  height: 100%;
+  margin: 0;
+}
+
+ul {
+  list-style-type: none;
+}
+
+#container {
+  min-height: 100%;
+  background-color: grey;
+  text-align: center;
+  overflow: auto;
+}
+
+#text-input {
+}
+
+#input-form {
+  margin: 0 auto;
+  display: block;
+}
+
+#submit-button {
+  margin: 10px;
+}
+
+#word-frequency-container {
+  border-style: solid;
+  border-color: black;
+  width: 15%;
+  display: inline-block;
+  margin: auto;
+}
+
+#word-list {
+  border-style: solid;
+  border-color: black;
+  float: left;
+}
+
+#word-occurence-list {
+  border-style: solid;
+  border-color: black;
+  float: right;
+}
+
+#char-frequency-container {
+  border-style: solid;
+  border-color: black;
+  width: 25%;
+  display: inline-block;
+  margin: auto;
+}
+
+#char-list {
+  border-style: solid;
+  border-color: black;
+  width: 25%;
+  margin: auto;
+  float: left;
+}
+
+#char-occurence-list {
+  border-style: solid;
+  border-color: black;
+  width: 25%;
+  margin: auto;
+  float: right;
+}
+
+#clear {
+  clear: both;
+}

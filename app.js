@@ -56,7 +56,7 @@ document.addEventListener('DOMContentLoaded', () => {
   submitBtn.addEventListener('click', () => {
     let inputText = document.getElementById('text-input').value;
     let wordArray = wordFrequency(
-      'one four two four two four four three three three'
+      'one four two four two four four three three three Periwinkle'
     );
     console.log(wordArray);
     addToList(wordArray);

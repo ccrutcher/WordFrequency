@@ -2,20 +2,20 @@ html,
 body {
   height: 100%;
   margin: 0;
+  font-family: 'Gayathri', sans-serif;
 }
 
 ul {
   list-style-type: none;
+  text-align: left;
+  white-space: nowrap;
 }
 
 #container {
   min-height: 100%;
-  background-color: grey;
+  background-color: #4b5d67;
   text-align: center;
-  overflow: auto;
-}
-
-#text-input {
+  overflow: hidden;
 }
 
 #input-form {
@@ -24,45 +24,69 @@ ul {
 }
 
 #submit-button {
-  margin: 10px;
+  width: 100px;
+  height: 45px;
+  border: none;
+  outline: none;
+  color: #fff;
+  margin-top: 20px;
+  font-size: 14px;
+  background-color: #87556f;
+  text-shadow: 0 1px rgba(0, 0, 0, 0.4);
+  box-shadow: 0 3px 2px 0 #59405c;
+  font-weight: 700;
+  background-image: url(../images/1.png);
+  background-repeat: no-repeat;
+  background-position: 200px;
+}
+
+#submit-button:hover {
+  background-color: #322f3d;
+  cursor: pointer;
+}
+
+#submit-button:active {
+  padding-top: 2px;
+  box-shadow: none;
 }
 
 .container-container {
-  border: 2px solid green;
-  width: 25%;
+  width: 100%;
   margin: 0 auto;
-  display: grid;
-  grid-template-columns: 1fr 1fr;
+  padding: 10px;
 }
 
 #word-frequency-container {
-  border: 2px solid yellow;
+  border: 5px groove #59405c;
+  background-color: #87556f;
   margin: 0 auto;
-  width: auto;
+  margin-top: 50px;
+  margin-bottom: 80px;
+  width: 50%;
   display: grid;
   grid-template-columns: 1fr 1fr;
+  overflow: hidden;
 }
 
 #char-frequency-container {
-  border: 2px solid yellow;
+  border: 5px groove #59405c;
+  background-color: #87556f;
   margin: 0 auto;
-  width: auto;
+  width: 50%;
   display: grid;
   grid-template-columns: 1fr 1fr;
+  overflow: hidden;
 }
 
 .word-display {
-  border: 2px solid blue;
+  display: inline-block;
   margin: 0 auto;
   width: 100%;
-  text-align: left;
-  text-overflow: ellipsis;
+  list-style-type: none;
 }
 
 .char-display {
-  border: 2px solid blue;
   margin: 0 auto;
   width: 100%;
-  text-align: left;
-  text-overflow: ellipsis;
+  list-style-type: none;
 }

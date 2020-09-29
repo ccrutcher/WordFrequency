@@ -50,32 +50,49 @@ ul {
   box-shadow: none;
 }
 
-.container-container {
+.max-container {
+  height: 65vh;
   width: 100%;
+  padding-top: 20px;
   margin: 0 auto;
-  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.container-container1 {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+.container-container2 {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  overflow-y: auto;
+  overflow-x: hidden;
 }
 
 #word-frequency-container {
   border: 5px groove #59405c;
   background-color: #87556f;
-  margin: 0 auto;
-  margin-top: 50px;
-  margin-bottom: 80px;
-  width: 50%;
+  width: 90%;
   display: grid;
   grid-template-columns: 1fr 1fr;
-  overflow: hidden;
+  height: fit-content;
 }
 
 #char-frequency-container {
   border: 5px groove #59405c;
   background-color: #87556f;
-  margin: 0 auto;
-  width: 50%;
+  width: 90%;
   display: grid;
   grid-template-columns: 1fr 1fr;
   overflow: hidden;
+  height: fit-content;
 }
 
 .word-display {
